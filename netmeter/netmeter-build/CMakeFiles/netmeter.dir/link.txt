@@ -1,0 +1,1 @@
+/usr/bin/c++    -g -O2 -Wall -std=c++11 -fexceptions -lboost_system -lboost_serialization -lboost_thread -lpthread -lboost_filesystem    CMakeFiles/netmeter.dir/infocollector.cpp.o CMakeFiles/netmeter.dir/main.cpp.o  -o netmeter -rdynamic 

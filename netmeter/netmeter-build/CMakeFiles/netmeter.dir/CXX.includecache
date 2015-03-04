@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/firefox/cpp/netmeter/netmeter/infocollector.h
+string
+-
+iostream
+-
+fstream
+-
+vector
+-
+boost/filesystem.hpp
+-
+
+/media/firefox/cpp/netmeter/netmeter/main.cpp
+iostream
+-
+infocollector.h
+/media/firefox/cpp/netmeter/netmeter/infocollector.h
+

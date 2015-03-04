@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1409869121 source:/home/cpp/wallch/main.cpp
+	<iostream>
+	"MySystemTools.h"
+
+1409945221 source:/home/cpp/wallch/src/MySystemTools.cpp
+	"MySystemTools.h"
+	<ctime>
+	<fstream>
+
+1412718937 /home/cpp/wallch/include/MySystemTools.h
+	<vector>
+	<string>
+	<boost/filesystem.hpp>
+
